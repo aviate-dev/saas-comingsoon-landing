@@ -84,14 +84,13 @@ const IndexPage = () => {
                 <span class="tag is-warning">Coming Soon</span>
                 <p class="title is-1 ">
                   <span class="fullstop">
-                    Buy and Sell verified SaaS Apps
+                  Share the exact text from blogs
                   </span>
             
                 </p>
                 <br />
                 <p class="subtitle is-4 has-text-weight-semibold">
-                  Bidzcart is a platform where users can buy, sell and bid high
-                  quality software projects. Signup for Free!
+                  TL;DR Use the browser extension to share short links of the exact text in the landing page which you want your friends to read.
                 </p>
 
                 <form
@@ -102,26 +101,7 @@ const IndexPage = () => {
                   }}
                 >
                   <div class="field ">
-                    <div class="control is-expanded">
-                      <div class="select is-fullwidth is-large">
-                        <select
-                          name="UserType"
-                          class="signup-form-elements"
-                          onChange={e => {
-                            handleSelectUserType(e)
-                          }}
-                        >
-                          <option value="Iama" disabled selected>
-                            I am a
-                          </option>
-                          <option value="Developer">Developer</option>
-                          <option value="Investor">Investor</option>
-                          <option value="Marketer">Marketer</option>
-                          <option value="Hobbyist">Hobbyist</option>
-                        </select>
-                      </div>
-                    </div>
-
+                    
                     <div class="control signup-form-elements">
                       <input
                         class="input is-large "

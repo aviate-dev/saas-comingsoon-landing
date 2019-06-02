@@ -1,7 +1,7 @@
 .title.is-1 {
   font-size: 5vw !important;
   font-weight: 600;
-  color: #5950cc ;
+  color: #2D55EB ;
 }
 
 .UIimg {
@@ -11,11 +11,11 @@
 }
 
 .is-primary {
-  background-color: #5950cc !important;
+  background-color: #2D55EB !important;
 }
 
 .signup-button:hover{
-  background-color: #6259d3 !important;
+  background-color: #2D55EB !important;
   transition: 0.3s;
 }
 
@@ -104,7 +104,7 @@ mark {
 
 .sec-2 {
   background: rgb(89,80,204);
-  background: linear-gradient(180deg, rgba(89,80,204,1) 0%, rgba(96,84,236,1) 49%, rgba(79,227,215,1) 100%);
+  /* background: linear-gradient(180deg, #2D55EB 0%, rgba(96,84,236,1) 49%, rgba(79,227,215,1) 100%); */
 }
 
 .sec2img {
