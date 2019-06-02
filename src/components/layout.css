@@ -1,0 +1,269 @@
+.title.is-1 {
+  font-size: 5vw !important;
+  font-weight: 600;
+  color: #5950cc ;
+}
+
+.UIimg {
+  position: absolute;
+  max-width: 70%;
+  z-index: 0;
+}
+
+.is-primary {
+  background-color: #5950cc !important;
+}
+
+.signup-button:hover{
+  background-color: #6259d3 !important;
+  transition: 0.3s;
+}
+
+
+.signup-button{
+  transition: 0.3s;
+}
+
+body {
+  max-height: 100%;
+  background-color: #fafafa;
+  z-index: -5;
+  font-family: 'Work Sans', sans-serif !important;
+}
+
+.navbar-item img {
+  max-height: 2.75rem !important;
+}
+
+.navbar {
+  padding: 10px 0 10px 0;
+}
+
+mark {
+  opacity: 90% !important;
+  color: aqua !important;
+}
+
+.signup-form-elements:hover {
+  transition: 0.5s;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+ 
+}
+.signup-form-elements {
+  transition: 0.4s;
+}
+
+.footer {
+}
+
+.subtitle.is-4 {
+  padding-right: 2rem;
+}
+
+@media screen and (max-width: 780px) {
+  .UIimg {
+    position: static;
+    max-width: 100%;
+    margin: 0 auto;
+    z-index: -1;
+  }
+
+  .title.is-1 {
+    font-size: 4rem !important;
+  }
+}
+
+.i-am-a {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.sec-3-sub {
+  margin: 0 auto;
+  max-width: 60%;
+  padding-top: 2rem;
+}
+
+.title.is-2 {
+  font-size: 5vw !important;
+  max-width: 60%;
+  margin: 0 auto;
+  font-weight: 300;
+  color: #1f1f1f;
+}
+
+.sec-3-li {
+  padding-top: 20px;
+}
+
+.sec-3 {
+  padding-top: 60px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.sec-2 {
+  background: rgb(89,80,204);
+  background: linear-gradient(180deg, rgba(89,80,204,1) 0%, rgba(96,84,236,1) 49%, rgba(79,227,215,1) 100%);
+}
+
+.sec2img {
+  width: 80%;
+  position: static;
+  margin: 40px;
+}
+
+.box-active {
+  color: white !important;
+  background-color: #4f3dc4 !important;
+  border: 3px white;
+}
+
+.box-inactive {
+  background-color: #4f3dc4 !important;
+  color: white;
+}
+
+.box-inactive img {
+  fill: white;
+}
+
+.box-active img {
+  fill: white;
+}
+
+.box-active,
+.box-inactive {
+  border-radius: 20px !important;
+  text-align: center !important;
+  padding: 30px 30px !important;
+}
+
+.sec-3-outer {
+  background-color: #fafafa;
+}
+
+.react-tabs__tab--selected {
+  border-radius: 20px 20px 0 0 !important;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.checkmarkimg {
+  margin: 10px;
+}
+
+.sec-technologies {
+  background-color: #fff;
+}
+
+.subtitle {
+  line-height: 2.1rem !important;
+}
+
+.meetbuyers {
+  width: 400px;
+  position: static;
+  /* margin-left: 100px; */
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.sec-meetbuyers {
+  padding-top: 60px;
+}
+
+.buyer-sell-icon {
+  max-width: 20%;
+}
+
+.sec-buysell-content {
+  padding-top: 50px;
+}
+
+.getStartedBtn {
+  margin: 0 auto !important;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+.subscribing-success{
+  animation: FadeAnimation 2s ease-in .2s forwards;
+  @keyframes FadeAnimation {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}
+
+.pricing-title{
+  padding-right: 40px;
+}
+
+.pricing-table-li li p{
+  line-height: 4rem;
+  padding: 10px;
+}
+
+.pricing-table-col{
+  padding:  20px ;
+  padding-top: 70px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.column.card:hover{
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+bold{
+  color: black !important;
+  font-size: 700 !important;
+}
+
+.faq-section{padding-top: 60px;}
+
+.pricing-section{
+  background: rgb(89,80,204);
+background: linear-gradient(45deg, rgba(89,80,204,1) 0%, rgba(98,89,211,1) 44%, rgba(0,255,233,1) 100%);
+padding: 60px 0;
+
+}
+
+.react-tabs__tab--selected{
+  background: none !important;
+  border: none !important;
+}
+
+.bottom-signupform{
+  margin: 0 auto !important;
+  max-width: 45rem !important;
+  background-color: #fff;
+
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.signup{
+  color: white;
+  padding: 60px 0 60px 0;
+  background: rgb(89,80,204);
+background: linear-gradient(90deg, rgba(89,80,204,1) 0%, rgba(81,67,255,1) 38%, rgba(75,255,240,1) 100%);
+}
+
+.faq-sub{
+  max-width: 60%;
+  margin: 0 auto;
+}
